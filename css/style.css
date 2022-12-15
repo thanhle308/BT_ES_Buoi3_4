@@ -227,6 +227,7 @@ ul.todo {
   
 }
 ul.todo li {
+  gap: 10px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -325,6 +326,24 @@ ul.todo#completed li .buttons .complete .far{
   display: none;
 }
 
-ul.todo#completed span{
+ul.todo#completed span,
+ul.todo#completed p{
   color: #25b99a;
+}
+i{
+  font-size: larger;
+}
+i.fa-solid.fa-trash-can {
+  padding-right: 12px;
+  color: #444444ba;
+}
+i:hover {
+  cursor: pointer;
+}
+span {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
