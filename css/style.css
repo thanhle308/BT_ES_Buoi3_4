@@ -347,3 +347,8 @@ span {
   align-items: center;
   justify-content: center;
 }
+p#notion {
+  text-align: center;
+  font-size: small;
+  color: red;
+}
